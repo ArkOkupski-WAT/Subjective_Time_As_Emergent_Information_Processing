@@ -1,12 +1,20 @@
-# Subjective Time as Emergent Information Processing
+# ⏳ Subjective Time as Emergent Information Processing
 
-## Key Features
-- Explains time dilation effects under stress/meditation  
-- Predicts cross-species time perception differences  
-- Connects neuroscience with information physics  
+[![PDF](https://img.shields.io/badge/Download_Paper-blue)](Subjective_Time_As_Emergent_Information_Processing.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Mathematical model proposing that subjective time perception (τ) emerges from information density (I/V) in conscious systems, described by:
+# 🔑 Key Insights
+Stress ↓V by ~40% (cortisol effect) → time slows
+
+Meditation ↑V via neuroplasticity → time speeds up
+
+Human baseline:
+
+I₀ ≈ 1e24 bits (consciousness threshold)
+
+V ≈ 1e-3 m³ (cortical volume)
+
+Mathematical model proposing that subjective time perception (τ) emerges from information density in conscious systems:
 
 ```math
-τ = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right)
-
+\tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right)
