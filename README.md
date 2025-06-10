@@ -20,5 +20,11 @@ V ≈ 1e-3 m³ (cortical volume)
 
 Mathematical model proposing that subjective time perception (τ) emerges from information density in conscious systems:
 
-```math
+$$
 \tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right)
+$$
+
+where:
+- $K$ is a proportionality constant
+- $V$ represents information processing speed
+- $I_0$ is a reference information threshold
