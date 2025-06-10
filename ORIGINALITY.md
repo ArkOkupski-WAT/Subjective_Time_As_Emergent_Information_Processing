@@ -34,4 +34,9 @@ $$
 | $I_0$ | Integration lower bound | Minimal conscious workspace activation |
 | $I/I_0$ | Information ratio | Current synaptic activity relative to baseline |
 
-[Complete mathematical proof in Appendix A]
+## Parameter Definitions
+| Symbol | Mathematical Meaning | Neurobiological Interpretation | Example Values |
+|--------|----------------------|--------------------------------|----------------|
+| $V$    | Processing volume    | Active cortical tissue (mm³)   | Human: ~50000 mm³ |
+| $I$    | Total information   | Synaptic efficacy (bits)      | Human: ~10¹⁵ bits |
+| $I_0$  | Consciousness threshold | Minimal integrated information | ~10¹² bits |
