@@ -29,10 +29,6 @@ $$
 
 ## Predicted Relationships
 
-## Predicted Relationships
-
-## Predicted Relationships
-
 1. **Information scaling**:
 
 $$
