@@ -1,5 +1,7 @@
 [![GitHub](https://img.shields.io/badge/View_on-GitHub-black?logo=github)](https://github.com/ArkOkupski-WAT/Subjective_Time_As_Emergent_Information_Processing)
 
+[![DOI](https://zenodo.org/badge/999035865.svg)](https://doi.org/10.5281/zenodo.15633760)
+
 # ⏳ Subjective Time as Emergent Information Processing
 
 [![PDF](https://img.shields.io/badge/Download_Paper-blue)](Subjective_Time_As_Emergent_Information_Processing.pdf)
