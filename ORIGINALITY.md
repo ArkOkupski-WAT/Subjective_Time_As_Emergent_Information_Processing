@@ -4,40 +4,34 @@
 
 The core equation emerges from integrating information density over neural processing volume:
 
-### Derivation Steps:
-1. **Differential relationship**:
-   $$
-   d\tau = \frac{K}{V} \cdot \frac{dI}{I} \quad \text{(for } I \geq I_0\text{)}
-   $$
-   
-2. **Indefinite integral solution**:
-   $$
-   \int \frac{K}{V I} \, dI = \frac{K}{V} \ln(I) + C
-   $$
+### 1. Differential Relationship
+$$
+d\tau = \frac{K}{V} \cdot \frac{dI}{I} \quad \text{(for } I \geq I_0\text{)}
+$$
 
-3. **Definite integral (from threshold $I_0$ to $I$)**:
-   $$
-   \tau = \frac{K}{V} \left[ \ln(I) - \ln(I_0) \right] = \frac{K}{V} \ln\left(\frac{I}{I_0}\right)
-   $$
+### 2. Integral Solution
+#### Indefinite Integral:
+$$
+\int \frac{K}{V I} \, dI = \frac{K}{V} \ln(I) + C
+$$
 
-4. **Final form (normalized)**:
-   $$
-   \tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right)
-   $$
+#### Definite Integral (from threshold $I_0$ to $I$):
+$$
+\tau = \frac{K}{V} \left[ \ln(I) - \ln(I_0) \right] = \frac{K}{V} \ln\left(\frac{I}{I_0}\right)
+$$
+
+### 3. Final Normalized Form
+$$
+\tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right)
+$$
 
 ## Key Features
-| Aspect | Traditional Models | This Hypothesis |
-|--------|--------------------|-----------------|
-| **Mathematical Basis** | Linear/scalar timing | **Logarithmic integration of information** |
-| **Threshold $I_0$** | Not present | **Lower bound of conscious processing** |
-| **Volume Dependence** | Ignored | **Explicit $V$ term (cortical engagement)** |
+- **Logarithmic scaling**: Matches Weber-Fechner law in neural systems  
+- **Volume dependence**: Explicit $V$ term reflects cortical engagement  
+- **Threshold $I_0$**: Lower bound for conscious time perception  
 
-## Biological Interpretation
-- **$\ln(I/I_0)$ scaling**: Matches Weber-Fechner law in neural systems
-- **$V$ dynamics**: Explains time perception changes during:
-  - Sleep (reduced $V$ → compressed $\tau$)
-  - Psychedelics (expanded $V$ → dilated $\tau$)
-
-## References
-[1] Neural Integration Mechanisms (Dayan & Abbott, 2005)  
-[2] Information Theory of Consciousness (Tononi, 2012)
+## How to Ensure Proper Rendering on GitHub:
+1. Use **double dollar signs** (`$$`) for block equations  
+2. **Always** add blank lines before/after equations  
+3. For inline math: `$symbol$` (e.g., $I_0$)  
+4. Check preview in GitHub's web interface (not all local editors render LaTeX)  
