@@ -29,15 +29,21 @@ $$
 
 ## Predicted Relationships
 
+## Predicted Relationships
+
+## Predicted Relationships
+
 1. **Information scaling**:
-   $$
-   \frac{d\tau}{dI} = \frac{K}{V(I_0 + I)}
-   $$
-   - Larger $V$ → slower subjective time accumulation
+
+$$
+\frac{d\tau}{dI} = \frac{K}{V(I_0 + I)}
+$$
+
+- Larger $V$ → slower subjective time accumulation
 
 2. **Volume dynamics**:
-   - Sleep: $V$ shrinks (reduced conscious volume) → $\tau$ compresses
-   - Psychedelics: $V$ expands → $\tau$ dilation
+- Sleep: $V$ shrinks → $\tau$ compresses
+- Psychedelics: $V$ expands → $\tau$ dilation
 
 ## Experimental Tests
 | Method | Measures | Predictions |
