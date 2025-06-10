@@ -2,9 +2,16 @@
 
 ## Mathematical Foundations
 
-### 1. Differential Relationship
+### 1. General Differential Form
 $$
-d\tau = \frac{K}{V} \cdot \frac{dI}{I} \quad \text{(for } I \geq I_0\text{)}
+d\tau = \frac{K}{V} \cdot \frac{dI}{I}
+$$
+
+*Note*: For emergent time perception, we later integrate from \( I_0 \) (consciousness threshold) to \( I \).
+
+### 2. Physical Solution (Definite Integral)
+$$
+\tau = \int_{I_0}^{I} \frac{K}{V} \cdot \frac{dI}{I} = \frac{K}{V} \ln\left(\frac{I}{I_0}\right) \quad \text{for } I \geq I_0
 $$
 
 ### 2. Integral Solution
