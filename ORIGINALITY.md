@@ -34,6 +34,15 @@ $$
 | $I_0$ | Integration lower bound | Minimal conscious workspace activation |
 | $I/I_0$ | Information ratio | Current synaptic activity relative to baseline |
 
+## Biological Predictions
+
+1. **Sleep states**  
+   When $V$ decreases by 40% during sleep:
+τ_sleep ≈ 0.6 × τ_awake
+- Where:  
+  $τ_{awake} = \frac{K}{V_{awake}} \ln(1+\frac{I}{I_0})$  
+  $V_{sleep} = 0.6V_{awake}$
+
 ## Parameter Definitions
 | Symbol | Mathematical Meaning | Neurobiological Interpretation | Example Values |
 |--------|----------------------|--------------------------------|----------------|
