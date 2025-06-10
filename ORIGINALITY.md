@@ -30,10 +30,6 @@ $$
 \tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right) \quad \text{(ensures } \tau=0 \text{ at } I=0\text{)}
 $$
 
-## Key Improvements:
-1. **Strict definite integral** using original variable $dI$
-2. **Consistent notation** throughout derivation
-3. **Physically meaningful normalization** (avoids negative time perception)
 
 ## Biological Interpretation
 | Parameter | Mathematical Role | Neural Implementation |
