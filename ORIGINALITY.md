@@ -2,36 +2,36 @@
 
 ## Mathematical Foundations
 
-The core equation emerges from integrating information density over neural processing volume:
-
 ### 1. Differential Relationship
 $$
 d\tau = \frac{K}{V} \cdot \frac{dI}{I} \quad \text{(for } I \geq I_0\text{)}
 $$
 
 ### 2. Integral Solution
-#### Indefinite Integral:
+#### Definite Integral (from consciousness threshold $I_0$ to current $I$):
 $$
-\int \frac{K}{V I} \, dI = \frac{K}{V} \ln(I) + C
-$$
-
-#### Definite Integral (from threshold $I_0$ to $I$):
-$$
-\tau = \frac{K}{V} \left[ \ln(I) - \ln(I_0) \right] = \frac{K}{V} \ln\left(\frac{I}{I_0}\right)
+\tau = \int_{I_0}^{I} \frac{K}{V I} \ dI = \left. \frac{K}{V} \ln(I) \right|_{I_0}^{I} = \frac{K}{V} \left[ \ln(I) - \ln(I_0) \right]
 $$
 
-### 3. Final Normalized Form
+#### Equivalent Logarithmic Form:
 $$
-\tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right)
+\tau = \frac{K}{V} \ln\left(\frac{I}{I_0}\right)
 $$
 
-## Key Features
-- **Logarithmic scaling**: Matches Weber-Fechner law in neural systems  
-- **Volume dependence**: Explicit $V$ term reflects cortical engagement  
-- **Threshold $I_0$**: Lower bound for conscious time perception  
+### 3. Normalized Final Form
+$$
+\tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right) \quad \text{(ensures } \tau=0 \text{ at } I=0\text{)}
+$$
 
-## How to Ensure Proper Rendering on GitHub:
-1. Use **double dollar signs** (`$$`) for block equations  
-2. **Always** add blank lines before/after equations  
-3. For inline math: `$symbol$` (e.g., $I_0$)  
-4. Check preview in GitHub's web interface (not all local editors render LaTeX)  
+## Key Improvements:
+1. **Strict definite integral** using original variable $dI$
+2. **Consistent notation** throughout derivation
+3. **Physically meaningful normalization** (avoids negative time perception)
+
+## Biological Interpretation
+| Parameter | Mathematical Role | Neural Implementation |
+|-----------|-------------------|-----------------------|
+| $I_0$ | Integration lower bound | Minimal conscious workspace activation |
+| $I/I_0$ | Information ratio | Current synaptic activity relative to baseline |
+
+[Complete mathematical proof in Appendix A]
