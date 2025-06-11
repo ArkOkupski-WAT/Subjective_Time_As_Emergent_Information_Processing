@@ -57,14 +57,22 @@ $$
 ## Originality Assessment
 
 ### Similarities to Existing Work
-- The logarithmic relationship between stimulus intensity and perception aligns with the Weber-Fechner law [1]
-- The connection between information density and time perception appears in Eagleman's (2008) work on surprising events [2]
-- Information integration approaches resemble Tononi's Integrated Information Theory [3]
+- Logarithmic perception models (Weber-Fechner law) [1]
+- Neural volume effects on cognition [2]
+- Information-density approaches to consciousness [3]
 
 ### Novel Aspects
-- The specific combination of parameters ($\frac{K}{V}$ multiplier with logarithmic transform) appears unique in time perception models
-- The explicit inclusion of a processing speed term ($V$) provides a new neurocomputational perspective
-- The reference threshold ($I_0$) offers a novel way to model individual differences in temporal perception
+1. **Structural interpretation of V**: 
+   - Explicit link between processing volume (anatomical constraint) and temporal perception
+   - Distinguishes from traditional "processing speed" models  
+
+## Comparative Analysis
+| Feature | Traditional Models | This Hypothesis |
+|---------|--------------------|-----------------|
+| Time basis | Internal clock ticks | **Conscious information integration rate** |
+| $I_0$ role | Not present | **Consciousness phase transition** |
+| Volume effect | Ignored | Explicit $V$ dependence |
+
 
 ### Conclusion
 While individual components have precedents in literature, the particular formulation and its application to emergent information processing in conscious systems appears to be original. The model provides a new mathematical framework for investigating subjective time perception.
