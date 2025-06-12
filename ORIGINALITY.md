@@ -54,18 +54,27 @@ $$
    $$
    \Delta\tau \approx \frac{\Delta K}{V_{\text{eff}}} \ln(2)
    $$
-
 ## Novel Aspects
 
-1. **$V_{\text{eff}}$ Distinction**
-   - Explicit separation of total vs conscious processing volume
-   - Explains size-effect anomalies (e.g., birds vs mammals)
+### 2. $K$ as Future-proof Parameter
+The scaling factor $K$ can be decomposed as:
 
-2. **$K$ as Future-proof Parameter**
-   - Accommodates undiscovered factors through:
-   $$
-   K = 1 + \alpha_{\text{met}} + \beta_{\text{neuro}} + ...
-   $$
+$$
+K = 1 + \underbrace{\alpha_{\text{met}}}_{\text{metabolic efficiency}} + \underbrace{\beta_{\text{neuro}}}_{\text{neurotransmitter effects}} + \underbrace{\gamma_{\text{thermo}}}_{\text{temperature}} + \cdots
+$$
+
+Where:
+- $\alpha_{\text{met}}$: Metabolic correction term (range: -0.3 to +0.5)  
+  *Example*: +0.2 for endotherms with high mitochondrial density
+- $\beta_{\text{neuro}}$: Neurochemical modulation (range: -0.1 to +0.3)  
+  *Example*: +0.15 for serotonin-dominated systems
+- $\gamma_{\text{thermo}}$: Q₁₀ temperature coefficient (~0.1 per 10°C)  
+
+**Key Properties**:
+1. Baseline $K=1$ for standard cortical tissue
+2. Additive terms account for:
+   - Known biological variability (measured)
+   - Placeholders for future discoveries (theoretical)
 
 ## Comparative Advantages
 
