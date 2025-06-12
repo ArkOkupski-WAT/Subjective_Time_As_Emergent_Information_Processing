@@ -42,33 +42,19 @@ $$
 
 ## Biological Predictions
 
-1. **Sleep States**
-   When $V_{\text{eff}}$ decreases by 40% during NREM sleep:
-   $$
-   \tau_{\text{sleep}} \approx 1.67 \times \tau_{\text{awake}}
-   $$
-   - *Mechanism*: Reduced cortical integration volume increases $\tau$
+## Metabolic Scaling
+In species with higher metabolic efficiency (represented by parameter K), changes in subjective time perception scale logarithmically with changes in K relative to effective processing volume.
 
-2. **Metabolic Scaling**
-   For species with higher $K$ (metabolic efficiency):
-   $$
-   \Delta\tau \approx \frac{\Delta K}{V_{\text{eff}}} \ln(2)
-   $$
 ## Novel Aspects
 
-### 2. $K$ as Future-proof Parameter
-The scaling factor $K$ can be decomposed as:
+### 2. K as Future-proof Parameter
+The scaling factor K incorporates multiple biological components:
+- Metabolic efficiency (α_met)
+- Neurotransmitter effects (β_neuro)
+- Temperature influences (γ_thermo)
+- And other potential factors
 
-$$
-K = 1 + \underbrace{\alpha_{\text{met}}}_{\text{metabolic efficiency}} + \underbrace{\beta_{\text{neuro}}}_{\text{neurotransmitter effects}} + \underbrace{\gamma_{\text{thermo}}}_{\text{temperature}} + \cdots
-$$
-
-Where:
-- $\alpha_{\text{met}}$: Metabolic correction term (range: -0.3 to +0.5)  
-  *Example*: +0.2 for endotherms with high mitochondrial density
-- $\beta_{\text{neuro}}$: Neurochemical modulation (range: -0.1 to +0.3)  
-  *Example*: +0.15 for serotonin-dominated systems
-- $\gamma_{\text{thermo}}$: Q₁₀ temperature coefficient (~0.1 per 10°C)  
+The relationship shows that K represents more than just simple processing speed, but rather a composite of various biological efficiencies.
 
 **Key Properties**:
 1. Baseline $K=1$ for standard cortical tissue
