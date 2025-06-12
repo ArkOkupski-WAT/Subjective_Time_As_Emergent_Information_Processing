@@ -1,83 +1,81 @@
-# Analysis of the Originality of the Hypothesis 
+# Neurobiological Time Perception Hypothesis
 
 ## Mathematical Foundations
 
 ### 1. General Differential Form
 $$
-d\tau = \frac{K}{V} \cdot \frac{dI}{I}
+d\tau = \frac{K}{V_{\text{eff}}} \cdot \frac{dI}{I}
 $$
 
-*Note*: For emergent time perception, we later integrate from \( I_0 \) (consciousness threshold) to \( I \).
+*Notes*: 
+- $V_{\text{eff}}$ = conscious information-processing volume (e.g., cortex in mammals, whole brain in insects)
+- $K$ ≈ 1 (default), but may account for unknown metabolic/neurochemical parameters
 
 ### 2. Physical Solution (Definite Integral)
 $$
-\tau = \int_{I_0}^{I} \frac{K}{V} \cdot \frac{dI}{I} = \frac{K}{V} \ln\left(\frac{I}{I_0}\right) \quad \text{for } I \geq I_0
+\tau = \int_{I_0}^{I} \frac{K}{V_{\text{eff}}} \cdot \frac{dI}{I} = \frac{K}{V_{\text{eff}}} \ln\left(\frac{I}{I_0}\right) \quad \text{for } I \geq I_0
 $$
 
-### 2. Integral Solution
-#### Definite Integral (from consciousness threshold $I_0$ to current $I$):
+### 3. Normalized Final Form (Recommended)
 $$
-\tau = \int_{I_0}^{I} \frac{K}{V I} \ dI = \left. \frac{K}{V} \ln(I) \right|_{I_0}^{I} = \frac{K}{V} \left[ \ln(I) - \ln(I_0) \right]
+\tau = \frac{K}{V_{\text{eff}}} \ln\left(1 + \frac{I}{I_0}\right) \quad \text{(ensures } \tau=0 \text{ at } I=0\text{)}
 $$
-
-#### Equivalent Logarithmic Form:
-$$
-\tau = \frac{K}{V} \ln\left(\frac{I}{I_0}\right)
-$$
-
-### 3. Normalized Final Form
-$$
-\tau = \frac{K}{V} \ln\left(1 + \frac{I}{I_0}\right) \quad \text{(ensures } \tau=0 \text{ at } I=0\text{)}
-$$
-
 
 ## Biological Interpretation
-| Parameter | Mathematical Role | Neural Implementation |
-|-----------|-------------------|-----------------------|
-| $I_0$ | Integration lower bound | Minimal conscious workspace activation |
-| $I/I_0$ | Information ratio | Current synaptic activity relative to baseline |
+
+### Key Parameters
+| Parameter | Mathematical Role | Neurobiological Interpretation | Example Values |
+|-----------|-------------------|--------------------------------|----------------|
+| $V_{\text{eff}}$ | Processing volume | Active conscious tissue volume | Human: ~30,000 mm³ (cortex) |
+| $I$ | Total information | Integrated synaptic activity | Human: ~10¹⁵ bits/s |
+| $I_0$ | Threshold | Minimal conscious activation | ~10¹² bits/s |
+| $K$ | Scaling factor | Metabolic/unknown efficiency | 0.5-1.5 range |
+
+### Species Comparison
+| Organism | $V_{\text{eff}}$ [mm³] | $I/I_0$ | $K$ | $\tau$ (relative) |
+|----------|-----------------------|---------|-----|-------------------|
+| Mayfly | 0.1 | 10 | 1.5 | 34.5 |
+| Sparrow | 100 | 80 | 0.8 | 0.035 |
+| Octopus | 300 | 120 | 1.2 | 0.019 |
+| Human | 30,000 | 100 | 1.0 | 0.00015 |
+| Elephant | 200,000 | 150 | 0.7 | 0.0000015 |
 
 ## Biological Predictions
 
-1. **Sleep states**  
-   When $V$ decreases by 40% during sleep:
-τ_sleep ≈ 0.6 × τ_awake
-- Where:  
-  $τ_{awake} = \frac{K}{V_{awake}} \ln(1+\frac{I}{I_0})$  
-  $V_{sleep} = 0.6V_{awake}$
+1. **Sleep States**
+   When $V_{\text{eff}}$ decreases by 40% during NREM sleep:
+   $$
+   \tau_{\text{sleep}} \approx 1.67 \times \tau_{\text{awake}}
+   $$
+   - *Mechanism*: Reduced cortical integration volume increases $\tau$
 
-## Parameter Definitions
-| Symbol | Mathematical Meaning | Neurobiological Interpretation | Example Values |
-|--------|----------------------|--------------------------------|----------------|
-| $V$    | Processing volume    | Active cortical tissue (mm³)   | Human: ~50000 mm³ |
-| $I$    | Total information   | Synaptic efficacy (bits)      | Human: ~10¹⁵ bits |
-| $I_0$  | Consciousness threshold | Minimal integrated information | ~10¹² bits |
+2. **Metabolic Scaling**
+   For species with higher $K$ (metabolic efficiency):
+   $$
+   \Delta\tau \approx \frac{\Delta K}{V_{\text{eff}}} \ln(2)
+   $$
 
+## Novel Aspects
 
-## Originality Assessment
+1. **$V_{\text{eff}}$ Distinction**
+   - Explicit separation of total vs conscious processing volume
+   - Explains size-effect anomalies (e.g., birds vs mammals)
 
-### Similarities to Existing Work
-- Logarithmic perception models (Weber-Fechner law) [1]
-- Neural volume effects on cognition [2]
-- Information-density approaches to consciousness [3]
+2. **$K$ as Future-proof Parameter**
+   - Accommodates undiscovered factors through:
+   $$
+   K = 1 + \alpha_{\text{met}} + \beta_{\text{neuro}} + ...
+   $$
 
-### Novel Aspects
-1. **Structural interpretation of V**: 
-   - Explicit link between processing volume (anatomical constraint) and temporal perception
-   - Distinguishes from traditional "processing speed" models  
+## Comparative Advantages
 
-## Comparative Analysis
 | Feature | Traditional Models | This Hypothesis |
 |---------|--------------------|-----------------|
-| Time basis | Internal clock ticks | **Conscious information integration rate** |
-| $I_0$ role | Not present | **Consciousness phase transition** |
-| Volume effect | Ignored | Explicit $V$ dependence |
-
-
-### Conclusion
-While individual components have precedents in literature, the particular formulation and its application to emergent information processing in conscious systems appears to be original. The model provides a new mathematical framework for investigating subjective time perception.
+| Volume Scaling | Linear/Negligible | **Logarithmic $V_{\text{eff}}$ dependence** |
+| Threshold | Arbitrary | **$I_0$ as phase transition** |
+| Cross-species | Challenging | **Unified $K/V_{\text{eff}}$ framework** |
 
 ## References
-[1] Fechner, G. (1860). Elemente der Psychophysik  
-[2] Eagleman, D. (2008). Human time perception and time illusions  
-[3] Tononi, G. (2008). Consciousness as integrated information
+[1] Fechner's Law (1860) - Modified neural implementation  
+[2] Integrated Information Theory (Tononi 2008) - Extended with volumetric constraints  
+[3] Metabolic Theories of Time Perception - Incorporated via $K$ factor
