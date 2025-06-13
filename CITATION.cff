@@ -1,1 +1,10 @@
-
+# CITATION.cff
+cff-version: 1.2.0
+message: "Please cite this work using the DOI from Zenodo"
+title: "Subjective Time as an Emergent Property of Information Processing"
+authors:
+  - given-names: "Arkadiusz"
+    family-names: "Okupski"
+    affiliation: "ZPPiD 'ARK-O' Research & Development"
+version: 6.0.0
+doi: 10.5281/zenodo.15657956
